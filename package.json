@@ -1,0 +1,36 @@
+{
+  "name": "testptmk",
+  "version": "1.0.0",
+  "description": "test competitive task",
+  "main": "main.js",
+  "type": "commonjs",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "pg": false
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "JS",
+    "TS",
+    "PostgreSQL"
+  ],
+  "author": "Mikhail Kurish <kypten.wave@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-typescript": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "raw-loader": "^4.0.2",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
